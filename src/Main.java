@@ -1,5 +1,8 @@
 public class Main {
+	
+	public static Window  window = new Window();
+	
     public static void main(String[] args){
-        new Window().setVisible(true);
+        window.setVisible(true);
     }
 }
